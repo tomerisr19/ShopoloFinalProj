@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_gradient"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+    <RelativeLayout
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="אנחנו ב - Shopolo מאמינים בקידום חקלאות תוצרת כחול לבן.לכן פיתחנו פלטפורמה אשר מספקת קניית ירקות ופירות טריים באופן מקוון - היישר מהחקלאים עצמם. זוהי הזדמנות לקנייה של סחורה איכותית ישירות מהחקלאי. גישור בין הלקוח לחקלאי, מבלי לשלם דמי תיווך לחנויות הגדולות.
+"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="140dp"
+        android:src="@drawable/israelflag" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemIconSize="30dp"
+        app:menu="@menu/bottom_navigation_menu" />
+
+
+
+
+
+
+</RelativeLayout >

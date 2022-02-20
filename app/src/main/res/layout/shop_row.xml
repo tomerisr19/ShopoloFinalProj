@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_ShopMenu"
+    android:background="@drawable/back_gradient"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_gradient">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="עגלת הקניות"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/cart_pressed"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:src="@drawable/cart_icon2" />
+
+        <ImageView
+            android:id="@+id/productImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cucumber" />
+
+        <TextView
+            android:id="@+id/productNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מלפפון"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:text="7 שח לקילו" />
+
+
+
+        <Button
+            android:id="@+id/addToCartCucumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="הוסף לסל"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            style="@style/TextAppearance.MaterialComponents.Button" />
+
+        <ImageView
+            android:id="@+id/productImageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carrot" />
+
+        <TextView
+            android:id="@+id/productNameTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="גזר"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+        <TextView
+            android:id="@+id/priceTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:text="9 שח לקילו" />
+
+
+        <Button
+            android:id="@+id/addToCartCarrot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="הוסף לסל"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            style="@style/TextAppearance.MaterialComponents.Button" />
+
+        <ImageView
+            android:id="@+id/productImageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tomato" />
+
+        <TextView
+            android:id="@+id/productNameTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="עגבינה"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+        <TextView
+            android:id="@+id/priceTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:text="5 שח לקילו" />
+
+
+        <Button
+            android:id="@+id/addToCartTomato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="הוסף לסל"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            style="@style/TextAppearance.MaterialComponents.Button" />
+
+         <ImageView
+            android:id="@+id/productImageView4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nion" />
+
+        <TextView
+            android:id="@+id/productNameTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="בצל"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+        <TextView
+            android:id="@+id/priceTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:text="7 שח לקילו" />
+
+
+        <Button
+            android:id="@+id/addToCartOnion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="הוסף לסל"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            style="@style/TextAppearance.MaterialComponents.Button" />
+
+        <ImageView
+            android:id="@+id/productImageView5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lettuce" />
+
+        <TextView
+            android:id="@+id/productNameTextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="חסה"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+        <TextView
+            android:id="@+id/priceTextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:text="9 שח לקילו" />
+
+
+        <Button
+            android:id="@+id/addToCartLatuce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="הוסף לסל"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            style="@style/TextAppearance.MaterialComponents.Button" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

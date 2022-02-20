@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ShopoloFinalProj</string>
+
+    <string name="moshe_farm">החווה של משה </string>
+
+    <string name="your_order"> ההזמנה שלך </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

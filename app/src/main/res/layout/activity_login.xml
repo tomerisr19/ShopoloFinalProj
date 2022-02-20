@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Login">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.0"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded"
+        android:gravity="center_horizontal"
+        android:layoutDirection="rtl"
+        android:orientation="vertical"
+        android:padding="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/login_LBL_EDT"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="התחברות"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#FF2C7A16"
+            >
+        </com.google.android.material.textview.MaterialTextView>
+
+        <EditText
+            android:id="@+id/login_useremail_EDT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/white"
+            android:inputType="textEmailAddress"
+            android:hint="אימייל"
+            android:layoutDirection="rtl"
+            android:textStyle="bold"
+            android:textDirection="rtl"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/login_userpassword_EDT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/white"
+            android:inputType="numberPassword"
+            android:hint="סיסמא"
+            android:layoutDirection="rtl"
+            android:textStyle="bold"
+            android:textDirection="rtl"
+            android:gravity="center" />
+
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/login_BTN_connect"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="התחבר"
+            android:layout_marginTop="20dp"
+            app:cornerRadius="17dp"
+            android:textColor="#FF2C7A16"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/login_BTN_signup"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:text="אין לך חשבון? לחץ כאן"
+            android:textColor="#950B56B3"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

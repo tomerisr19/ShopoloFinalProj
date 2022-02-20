@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_SignUp"
+    android:background="@drawable/background"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.0"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/signUp_LBL_EDT"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="הרשמה"
+            android:textColor="#95B429FF"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:boxStrokeColor="@color/purple_200" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded"
+        android:gravity="center_horizontal"
+        android:layoutDirection="rtl"
+        android:orientation="vertical"
+        android:padding="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/signUp_EDT_userFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/white"
+            android:inputType="text"
+            android:hint="שם פרטי"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/signUp_EDT_userLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/white"
+            android:inputType="text"
+            android:hint="שם משפחה"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/signUp_EDT_userEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/white"
+            android:inputType="textEmailAddress"
+            android:hint="אימייל"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/signUp_EDT_userPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/white"
+            android:inputType="numberPassword"
+            android:hint="סיסמא"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:gravity="center"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/signUp_BTN_sign"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="הירשם"
+            android:layout_marginTop="20dp"
+            app:cornerRadius="17dp"
+            android:textColor="#95B429FF"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

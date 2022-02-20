@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "380673120778",
+    "firebase_url": "https://shopolo-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "shopolo",
+    "storage_bucket": "shopolo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380673120778:android:94557a7de8e62f55e4ddf3",
+        "android_client_info": {
+          "package_name": "com.example.shopolofinalproj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380673120778-r3465lpe0u0036kdgtto9l2rhi3oshq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6yHioSvY-96yA519I7JvmlSoJss5tm84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380673120778-r3465lpe0u0036kdgtto9l2rhi3oshq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
